@@ -9,10 +9,13 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    @IBOutlet weak var leftDiceImageView: UIImageView!
+    
+    @IBOutlet weak var rightDiceImageView: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        leftDiceImageView.image = #imageLiteral(resourceName: "DiceSix");
+        rightDiceImageView.image = #imageLiteral(resourceName: "DiceTwo");
     }
 
 
