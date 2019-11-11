@@ -46,6 +46,7 @@
                     </view>
                     <connections>
                         <outlet property="diceImageView1" destination="lgw-dE-TWv" id="9za-5U-gJ4"/>
+                        <outlet property="diceImageView2" destination="sYy-Sd-7IU" id="bpt-Fo-73L"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
